@@ -5,6 +5,7 @@ env:
     - DJANGO=1.8.4
 install:
     - pip install django==$DJANGO 
+    - pip install django_cron
 script:
     - python manage.py test
 
