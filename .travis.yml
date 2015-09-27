@@ -4,7 +4,7 @@ python:
 env:
     - DJANGO=1.8.4
 install:
-    - pip install -q Django=$DJANGO 
+    - pip install django == $DJANGO 
 script:
     - python manage.py test
 
