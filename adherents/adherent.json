@@ -1,0 +1,21 @@
+[
+    {
+        "model": "adherent.person",
+        "pk": 1,
+        "fields":{
+            "first_name": "plop",
+            "last_name": "Carambar",
+            "email": "plop@cosmogol.net"
+        }
+
+    },
+    {
+        "model": "adherent.person",
+        "pk": 2,
+        "fields":{
+            "first_name": "plip",
+            "last_name": "Carambar",
+            "email": "plip@cosmogol.net"
+        }
+    }
+]
